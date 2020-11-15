@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src='app.js' defer></script>
+    <title>School Codes</title>
+</head>
+<body>
+  <select id='selector' onchange="selector()">
+      <option value="1">Session 1</option>
+      <option value="2">Session 2</option>
+  </select>
+  <div class="rooms" id='session1'>
+  </div>
+  <div class="rooms" id='session2'>
+  </div>
+  <div class="results" id='results'>
+      <ul>
+          <span class="title"><u>Results</u></span>
+          <li>Session: <span class="data" id='resSession'>1</span></li>
+          <li>Room Number: <span class="data" id='resRoomNo'>1</span></li>
+          <li>Code: <span class="data" id='resTeamCode'>ACC-0</span></li>
+          <li>School Name: <span class="data" id='resSchoolName'>Ananda College</span></li>
+          <li>Presenter: <span class="data" id='resPresenter'>Hasala Heiyanthuduwa</span></li>
+      </ul>
+  </div>
+</body>
+</html>

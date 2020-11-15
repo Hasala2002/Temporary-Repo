@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #161819;
+    background-image: url('right-bg.png');
+    background-size: 100% auto;
+    overflow: hidden; 
+    padding: 2.5%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+select{
+  width: 25%;
+  height: 7.5%;
+  background-color: #212327;
+  border: 2px solid #bb4125;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+}
+
+select:focus{
+    outline: none;
+}
+
+.rooms{
+    width: 60%;
+    height: 60%;
+    padding: 5% 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.room{
+  height: 10%;
+  background-color: #212327;
+  border: 2px solid #bb4125;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 17.5%;
+  cursor: pointer;
+}
+
+.results{
+    color: white;
+    background-color: #212327;
+    width: 30%;
+    height: 30%;
+    top: 25%;
+    position: absolute;
+    right: 2.5%;
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #e7441f;
+    border: 3px solid #e7441f;
+}
+
+.title{
+    font-weight: 500;
+    color:  #e7441f;
+}
+
+.data{
+    color: white;
+}
